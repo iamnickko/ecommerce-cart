@@ -1,0 +1,12 @@
+.nav ul {
+  display: flex;
+  gap: 1rem;
+}
+
+.nav li {
+  display: flex;
+}
+
+.active {
+  text-decoration: underline;
+}

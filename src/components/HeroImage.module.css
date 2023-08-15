@@ -1,0 +1,30 @@
+.hero-image {
+  height: 65vh;
+  width: 100%;
+  background-image: linear-gradient(rgb(0, 0, 0), transparent),
+    url(../assets/hero.jpg);
+  background-size: cover;
+  background-position: top;
+  position: relative;
+}
+
+.heading {
+  display: block;
+  padding-top: 0.5rem;
+}
+.text-box {
+  color: #fff;
+  position: absolute;
+  top: 35%;
+  padding: 1rem;
+  margin-left: 2rem;
+}
+
+.text-box h2 {
+  font-size: 55px;
+}
+
+p {
+    font-size: 20px;
+    padding: 1rem 0;
+}

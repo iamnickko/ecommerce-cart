@@ -1,0 +1,41 @@
+.content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  text-align: center;
+  align-items: center;
+  margin: 2rem auto;
+  padding: 1rem;
+  max-width: 1200px;
+}
+
+.product-text {
+  margin-left: 1rem;
+}
+
+.product-details-aside {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 1fr;
+  grid-template-rows: 2fr;
+}
+
+.main-image {
+  max-width: 600px;
+  max-height: 500px;
+}
+.main-image img {
+  max-height: 100%;
+}
+
+.thumbnails {
+  display: flex;
+  align-items: center;
+}
+
+.thumbnails > div {
+  width: 200px;
+}
+
+.thumbnails > div > img {
+  width: 100%;
+}

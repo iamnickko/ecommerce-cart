@@ -1,0 +1,22 @@
+.button {
+  padding: 0.9rem 1.5rem;
+  border-radius: 20px;
+  border: none;
+  background-color: var(--primary);
+  color: #fff;
+  margin: 0.5rem auto;
+  cursor: pointer;
+  font-family: "Work Sans", sans-serif;
+
+}
+
+.button:hover {
+  background-color: var(--secondary);
+  color: #fff;
+}
+
+.button:active {
+  color: var(--secondary);
+  border: 1px solid var(--secondary);
+  background-color: #fff;
+}

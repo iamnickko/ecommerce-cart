@@ -1,0 +1,22 @@
+.product-item-article {
+  justify-items: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+.image {
+  border-radius: 10px;
+}
+
+.image img {
+  object-fit: contain;
+  max-height: 400px;
+  max-width: 100%;
+}
+
+.card {
+  max-width: 350px;
+}
+
