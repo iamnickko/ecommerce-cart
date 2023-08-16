@@ -2,9 +2,9 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: 60rem;
+  max-width: 1200px;
   margin: 1.5rem auto;
-  padding: 2px;
+  padding: 10px;
 }
 .header a {
   color: #0e3c29;
@@ -31,9 +31,21 @@
 }
 
 .badge {
-    background-color: #0e3c29;
-    padding: 0.25rem 1rem;
-    border-radius: 25px;
-    margin-left: 1rem;
-    color: #fff;
-  }
+  background-color: #0e3c29;
+  padding: 0.25rem 1rem;
+  border-radius: 25px;
+  margin-left: 1rem;
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  /* phone size */
+}
+
+@media (min-width: 768px) {
+  /* phone to tablet */
+}
+
+@media (min-width: 992px) {
+  /* laptop */
+}

@@ -32,21 +32,26 @@ const Header = () => {
 
   return (
     <header className={classes.header}>
-      <div>
-        <h1>BuyOnline</h1>
-      </div>
-      <div>
-        <MainNavigation />
-      </div>
-      <div className={classes.info}>
-        <div>{authContent}</div>
-        <NavLink to="cart" className={({isActive}) => isActive ? classes.active : undefined}>
-          <div className={classes.cart}>
-            <span className={classes.badge}>{numberOfCartItems}</span>
-            <span>Cart</span>
-          </div>
-        </NavLink>
-      </div>
+        <div>
+          <h1>BuyOnline</h1>
+        </div>
+        <div>
+          <MainNavigation />
+        </div>
+        <div className={classes.info}>
+          <div>{authContent}</div>
+          <NavLink
+            to="cart"
+            className={({ isActive }) =>
+              isActive ? classes.active : undefined
+            }
+          >
+            <div className={classes.cart}>
+              <span className={classes.badge}>{numberOfCartItems}</span>
+              <span>Cart</span>
+            </div>
+          </NavLink>
+        </div>
     </header>
   );
 };
