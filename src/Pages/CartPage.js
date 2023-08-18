@@ -7,10 +7,10 @@ const CheckoutPage = () => {
   const cartState = useSelector((state) => state.cart);
 
   let content = (
-    <div className={classes["empty-cart"]}>
+    <section className={classes["empty-cart"]}>
       <p>No items are in the cart.</p>
       <Link to="/">Start shopping</Link>
-    </div>
+    </section>
   );
 
   if (cartState.items.length > 0) {
