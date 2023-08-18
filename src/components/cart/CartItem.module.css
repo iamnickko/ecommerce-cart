@@ -33,3 +33,22 @@
     margin:5px;
 }
 
+@media (max-width: 768px) {
+    .row {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    .product {
+        display:block;
+    }
+    .product-price {
+        font-size: 14px;
+    }
+}
+@media (min-width: 768px) {
+
+}
+@media (min-width: 992px) {
+
+}

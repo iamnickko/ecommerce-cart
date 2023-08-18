@@ -24,7 +24,7 @@ const CartItem = (props) => {
         <img src={thumbnail} alt={title} />
         <div className={classes["product-text"]}>
           <h3>{title}</h3>
-          <span>{`${new Intl.NumberFormat("en-GB", {
+          <span className={classes["product-price"]}>{`${new Intl.NumberFormat("en-GB", {
             style: "currency",
             currency: "GBP",
           }).format(price)} each`}</span>
